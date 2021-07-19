@@ -1,0 +1,31 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+.heading{
+    width: 100%;
+    font-size: 23px;
+    margin: 0px;
+}
+#startBtn,#btn_pause, #btn_stop, #objects_detected, #status{
+    font-size: 18px;
+}
+#btn_stop{
+    margin-left: 5px;
+}
+.copyright_footer{
+    background-color: orange;
+    box-shadow: 10px 10px 10px gray;
+    line-height: 3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
+canvas{
+    border: 5px inset darkred;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    margin-top: 150px;
+}
